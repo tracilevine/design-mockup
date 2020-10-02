@@ -1,30 +1,34 @@
 body{
     border: 2px solid purple; 
     background-size:contain; 
+    font-family: 'Montserrat', sans-serif;
+   
 }
 /* the overall container of the card */
 #container{
     display:flex;
     flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    margin:auto;
 }
 #container > div{
-    height:205px;
-    width:550px;
+    height:500px;
+    width:950px;
+    display:flex;
+    justify-content: center;
+    margin:auto;
 }
 /* all the cards individually */
 /* global for many boxes */
 .text{
-    border: 2px solid maroon;
-    width: 400px;
+    width: 600px;
 }
 .images{
-    border:2px solid blue;
-    width:200px;
-    
+    width:350px;
 }
 /* first card */
 #logobox{
-    border: 2px solid green;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
@@ -32,21 +36,41 @@ body{
     background-color:#1B1E25;
 }
 #logo{
-    border:2px solid salmon;
     height: 20vh;
-    width: 20vh;   
+    width: 20vh;
+    display:flex;
+    justify-content:center;   
+}
+#logo > img{
+    height:30vh;
+    
 }
 /* second card  */
 #uxDesigner{
-    border: 2px solid pink;
     display:flex;
+    justify-content:center;
+    align-items:center;
     background-color:white;
+    
 } 
+#trianglesquare > img{
+    padding-top:40px;
+    height:50vh;
+    width:50vh;
+}
 /*third card   */
 #frontend{
-   border:2px solid red; 
    display:flex;
-   background-color:white;
+   background-color:#FAFAFA;
+   height:500px;
+    width:950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+#brackets > img{
+    height:50vh;
 }
 /* fourth card */
 #portfolio{
@@ -55,22 +79,29 @@ body{
     justify-content: center;
     background-color:#1B1E25;
     margin:auto;
+    height:500px;
+    width:950px;
 }
 #portfoliobox{
-    border:2px solid blue;
-    height:100px;
-    width:300px;
+    border:2px solid whitesmoke;
+    height:300px;
+    width:600px;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items:center;
     flex-direction: column;
     margin:auto;
 }
 #dribble-portfolio{
-    border:2px solid blue;
+    border:2px solid whitesmoke;
     height:50px;
-    width:150px;
-   
+    width:300px;
+    margin-bottom: 40px;
+}
+#text-port{
+    text-align:center;
+    margin: auto;
+    color: whitesmoke;
 }
 /* fifth card */
 #getconnected{
@@ -106,6 +137,6 @@ body{
 footer{
     border:2px solid teal;
     height: 50px;
-    width:550px;
+    width:950px;
     background-color:#1B1E25;
 }
