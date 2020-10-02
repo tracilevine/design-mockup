@@ -1,0 +1,111 @@
+body{
+    border: 2px solid purple; 
+    background-size:contain; 
+}
+/* the overall container of the card */
+#container{
+    display:flex;
+    flex-direction:column;
+}
+#container > div{
+    height:205px;
+    width:550px;
+}
+/* all the cards individually */
+/* global for many boxes */
+.text{
+    border: 2px solid maroon;
+    width: 400px;
+}
+.images{
+    border:2px solid blue;
+    width:200px;
+    
+}
+/* first card */
+#logobox{
+    border: 2px solid green;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:auto;
+    background-color:#1B1E25;
+}
+#logo{
+    border:2px solid salmon;
+    height: 20vh;
+    width: 20vh;   
+}
+/* second card  */
+#uxDesigner{
+    border: 2px solid pink;
+    display:flex;
+    background-color:white;
+} 
+/*third card   */
+#frontend{
+   border:2px solid red; 
+   display:flex;
+   background-color:white;
+}
+/* fourth card */
+#portfolio{
+    border: 2px solid blue;
+    display:flex;
+    justify-content: center;
+    background-color:#1B1E25;
+    margin:auto;
+}
+#portfoliobox{
+    border:2px solid blue;
+    height:100px;
+    width:300px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction: column;
+    margin:auto;
+}
+#dribble-portfolio{
+    border:2px solid blue;
+    height:50px;
+    width:150px;
+   
+}
+/* fifth card */
+#getconnected{
+    border:2px solid yellow;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color:#2ABBAE;
+}
+.gcbox{
+    border: 2px solid green;
+    width:225px;
+    height:200px;
+}
+#table{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+/* final card */
+#contactform{
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    background-color:#1B1E25;
+}
+#form{
+    border:2px solid blue;
+    height:150px;
+    width:375px;
+    margin:auto;}
+/* footer sesction  */
+footer{
+    border:2px solid teal;
+    height: 50px;
+    width:550px;
+    background-color:#1B1E25;
+}
