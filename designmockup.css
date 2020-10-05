@@ -39,10 +39,11 @@ h1{
 /* first card */
 #logobox{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin:auto;
     background-color:#1B1E25;
+    flex-direction: column;
 }
 #logo{
     height: 20vh;
@@ -53,6 +54,15 @@ h1{
 #logo > img{
     height:20vh;
     
+}
+
+#language{
+    border: 1px solid whitesmoke;
+    color:white;
+    width:100px;
+    text-align:center;
+    margin-left:800px;
+    margin-bottom: 100px;
 }
 /* second card  */
 #uxDesigner{
@@ -66,6 +76,15 @@ h1{
     padding-top:40px;
     height:50vh;
     width:50vh;
+}
+
+#short{
+    width: 60px;
+    margin-left:0px;
+}
+#short2{
+    width: 60px;
+    margin-left:0px;
 }
 /*third card   */
 #frontend{
