@@ -8,7 +8,7 @@ body{
 #container{
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content:center;
     align-items:center;
     margin:auto;
 }
@@ -27,6 +27,15 @@ body{
 .images{
     width:350px;
 }
+.bold{
+    font-weight:900;
+}
+p{
+    font-weight: 300;
+}
+h1{
+    font-weight:300;
+}
 /* first card */
 #logobox{
     display:flex;
@@ -42,7 +51,7 @@ body{
     justify-content:center;   
 }
 #logo > img{
-    height:30vh;
+    height:20vh;
     
 }
 /* second card  */
@@ -69,12 +78,19 @@ body{
     align-items: center;
     margin:auto;
 }
-#brackets > img{
+#brackets{
     height:50vh;
+    text-align:center; 
+    font-weight:700;
+    font-size:8rem;
+    padding-bottom:200px;
+    width:350px;
+
+    
 }
 /* fourth card */
 #portfolio{
-    border: 2px solid blue;
+    
     display:flex;
     justify-content: center;
     background-color:#1B1E25;
@@ -92,11 +108,30 @@ body{
     flex-direction: column;
     margin:auto;
 }
+#text-port > h1{
+    font-weight: 700;
+}
+#text-port > p{
+    margin: auto;
+    padding: 2px;
+
+}
 #dribble-portfolio{
     border:2px solid whitesmoke;
     height:50px;
     width:300px;
     margin-bottom: 40px;
+    font-size: 10px;
+    text-align:center;
+    color:whitesmoke;
+    font-weight:300;
+    display: flex;
+    justify-content: center;
+}
+#dribblecheckout{
+    background-color:transparent;
+    color:whitesmoke;
+    border-color:transparent;
 }
 #text-port{
     text-align:center;
@@ -105,38 +140,171 @@ body{
 }
 /* fifth card */
 #getconnected{
-    border:2px solid yellow;
+    
     display:flex;
     justify-content: space-evenly;
     align-items:center;
     background-color:#2ABBAE;
+     height:500px;
+    width:950px;
+}
+td > img{
+    height:20px;
+    width:20px;
 }
 .gcbox{
-    border: 2px solid green;
-    width:225px;
-    height:200px;
+    width:400px;
+    height:300px;
+    color:whitesmoke;
+}
+
+#socialmedia{
+    width:300px;
+}
+#text-connect{
+    color: white;
+    padding-left: 20px;
+}
+.sectiontitle{
+    font-size: 20px;
+}
+a{
+    text-decoration:none;
+    color:whitesmoke;
+}
+#twitter{
+    padding-left: 10px;
+    width: 500px;
 }
 #table{
     display:flex;
     justify-content:space-evenly;
     align-items:center;
+    font-weight:300;
+    color:whitesmoke;
+}
+#tweet1 >tr{
+    border-bottom: 1px solid whitesmoke;
+}
+#tweets{
+    color:white;
+    width: 500px;
+}
+#tweet1>img{
+    height: 30px;
+    width: 30px;
+}
+#tweet2>img{
+    height: 20px;
+    width: 20px;
 }
 /* final card */
 #contactform{
-    border: 2px solid green;
     display: flex;
     justify-content: center;
+    align-content:center;
+    flex-direction: column;
     background-color:#1B1E25;
+    height:500px;
+    width:950px;
 }
-#form{
-    border:2px solid blue;
-    height:150px;
-    width:375px;
-    margin:auto;}
+#contacttitle{
+    font-weight: 300px;
+    color:whitesmoke;
+    text-align:center;
+    padding-top: 40px;
+    padding-bottom:0px;
+    height: 100px;
+    font-size: 20px;
+
+}
+form{
+    height:300px;
+    width:600px;
+    margin:0 auto auto auto;
+    color:whitesmoke;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: left;
+
+}
+input{
+    background: transparent;
+    border:none;
+}
+textarea{
+    background: transparent;
+    border: 1px solid whitesmoke;
+    height: 100px;
+    width: 600px;
+    margin-top: 10px;
+}
+
+.input{
+    border-bottom: 1px solid whitesmoke;
+
+}
+
 /* footer sesction  */
 footer{
-    border:2px solid teal;
+    
     height: 50px;
     width:950px;
     background-color:#1B1E25;
+    color:whitesmoke;
+    font-weight:300;
+    display: flex;
+    justify-content: space-between;
+}
+#backtotop >button{
+    background:transparent;
+    border:none;
+    color: whitesmoke;
+}
+svg{
+   fill:whitesmoke;
+}
+/*collapsibles*/
+.collapsible{
+    height:45px;
+     width:90px;
+     border-radius: 0 0 90px 90px;
+     border-color:transparent;
+}
+#button1{
+   background-color:#1B1E25; 
+}
+#button2{
+    background-color:white;
+    margin-left:425px;
+}
+#button2 > svg{
+    fill:#1B1E25;
+}
+#button2background{
+    background-color:#FAFAFA;
+}
+#button3background{
+    background-color:#1B1E25;
+}
+#button3{
+    background-color:#FAFAFA;
+    margin-left:425px;
+}
+#button3 > svg{
+    fill:#1B1E25;
+}
+#button4background{
+    background-color:#2ABBAE;
+}
+#button4{
+    background-color:#1B1E25;
+    margin-left:425px;
+}
+#button5background{
+    background-color:#1B1E25;
+}
+#button5{
+    background-color:#2ABBAE;
+    margin-left:425px;
 }
